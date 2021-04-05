@@ -2,7 +2,6 @@
 
 import sys
 import os
-from colorama import Fore, Back, Style
 
 empty=[]
 x = os.getcwd()

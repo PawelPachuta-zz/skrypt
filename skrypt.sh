@@ -1,8 +1,7 @@
 #!/bin/bash
 
 my_arr=('127.0.0.1' 'tail' '-n 20 commands.txt' '127.0.0.1' 'cat' 'commands.txt' '192.168.0.5' '/usr/bin/test' 'random_value' '192.168.0.6' '/usr/bin/test' 'random_value')
-#arr=${cat $@}
-#echo "$arr"
+
 #IFS=', ' read -r -a array <<< "$string"
 #for i in "${!my_arr[@]}"; do
 #	printf '${my_arr[%s]}=%s\n' "$i" "${my_arr[i]}"
