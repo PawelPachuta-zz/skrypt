@@ -3,7 +3,6 @@
 import sys
 import os
 
-empty=[]
 x = os.getcwd()
 y = os.path.join(x, "commands.txt")
 sys.argv[1] =  y
