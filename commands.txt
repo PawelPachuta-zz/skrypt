@@ -1,0 +1,4 @@
+127.0.0.1 tail -n 20 commands.txt
+127.0.0.1 cat commands.txt
+192.168.0.5 /usr/bin/test random_value
+192.168.0.6 /usr/bin/test random_value
